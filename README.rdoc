@@ -1,17 +1,3 @@
 Sample Petition Application
 
-Petition
-	title
-	description
-	user_id
-	
-User
-	name
-	password
-	email
-	
-Signatures
-	user_id
-	petition_id
-	
-
+This is an demo application that I worked on in 2.5 hours. <understatement>It has a ways to go still!</understatement>
