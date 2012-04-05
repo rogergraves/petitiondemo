@@ -3,6 +3,7 @@ Sample Petition Application
 Petition
 	title
 	description
+	user_id
 	
 User
 	name
