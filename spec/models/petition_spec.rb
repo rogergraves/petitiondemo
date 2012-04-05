@@ -1,5 +1,12 @@
 require 'spec_helper'
 
 describe Petition do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before do
+    @petition = Petition.new
+  end
+  
+  it "must have a title" do
+    @petition.should have(1).error_on(:title)
+  end
+  
 end
