@@ -1,7 +1,6 @@
 Spent a few hours on a petition simulator.
 
-Summary
-
+Summary:
 Used the devise gem for user management/sign-in/signup. Models included User, Petition and Signature.
 
 Petition
@@ -18,9 +17,9 @@ Signatures
  - user_id
  - petition_id
 
-Tests
+Tests:
 I used rspec for the model validations.
 
-Comments
+Comments:
 I made some mistakes in generating devise and after it turned into a yak shaving exercise I decided to nuke it and start over. It put me behind around 25 minutes (probably just getting warmed up was part of the initial delay too).
       
