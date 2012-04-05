@@ -1,4 +1,4 @@
 <h1>Petition#index</h1>
 <p>Find me in app/views/petition/index.html.erb</p>
 
-<%= @signed_in %>
+<%= link_to("Create Petition", new_petition_path(current_user.id)) if user_signed_in? %></br>
